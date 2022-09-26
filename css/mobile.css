@@ -43,6 +43,7 @@
 
   .l-heading {
     text-align: center;
+    width: 200px;
   }
 
   .testimonials {
@@ -51,6 +52,7 @@
 
   .testimonial {
     overflow: hidden;
+    height: 220px;
   }
 
   /* Contact */
@@ -60,15 +62,52 @@
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 70px;
+    margin-top: 10px;
   }
 
   /* Showcase */
   .showcase {
-    height: 100%;
+    height: 500px;
   }
 
   .showcase .showcase-content {
     padding-top: 70px;
     padding-bottom: 30px;
   }
+
+  .btn {
+    border-radius: 30px;
+    height: 50px;
+
+  }
+
+  .showcase-content {
+    padding: 0px;
+  }
+
+.btn-light {
+  height: 50px!important;
+  padding: 10px;
+}
+
+a.btn {
+  height:100%;
+}
+
+.about-photo {
+  height: 230px;
+}
+
+.contact-form {
+  height: 540px;
+}
+
+.container {
+  overflow: hidden;
+  width: 300px;
+}
+
+.container p{
+  text-align: left;
+}
