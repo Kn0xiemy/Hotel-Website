@@ -5,10 +5,15 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 /* Main Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
+  min-height: 100%;
 }
 
 a {
@@ -195,10 +200,11 @@ p {
   min-height: 100%;
 }
 .about-info .info-right img {
-  width: 70%;
+  width: 75%;
   display: block;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 20px;
+
 }
 .about-info .info-left {
   float: left;
@@ -283,6 +289,13 @@ p {
 
 .contact-info {
   background: #333;
-  padding: 100px;
+  padding: 10px;
   margin-top: 100px;
+}
+
+.contact-footer {
+  text-align: center;
+  background-color: #444;
+  color: white;
+  padding: 116px;
 }
